@@ -24,5 +24,12 @@
     
 }
 
+.gallery{
+margin-top: 15px;
+margin-bottom: 15px;
+}
 
+.gallery img{
+    width: 320px;
+}
 
