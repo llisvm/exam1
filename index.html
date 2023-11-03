@@ -48,10 +48,10 @@
     <!-- Horisontal card -->
     <div class="container">
         <div class="row border-bottom">
-            <div class="col col-lg-6">
+            <div class="col col-12 col-lg-6 start">
                 <img src="./images/img1.jpg" alt="">
             </div>
-            <div class="col col-lg-6">
+            <div class="col col-12 col-lg-6">
                 <div class="text-for-card">
                     <div class="text-center">
                         <h1>
@@ -81,7 +81,7 @@
     <!-- Horisontal card -->
     <div class="container">
         <div class="row border-bottom">
-            <div class="col col-lg-6">
+            <div class="col col-12 col-lg-6">
                 <div class="text-for-card">
                     <div class="text-center">
                         <h1>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-lg-6">
+            <div class="col col-12 col-lg-6 start">
                 <img src="./images/img3.jpg" alt="">
             </div>
         </div>
@@ -111,10 +111,10 @@
     <!-- Horisontal card -->
     <div class="container">
         <div class="row border-bottom ">
-            <div class="col col-lg-6">
+            <div class="col col-12 col-lg-6 start">
                 <img src="./images/img2.jpg" alt="">
             </div>
-            <div class="col col-lg-6">
+            <div class="col col-12 col-lg-6">
                 <div class="text-for-card">
                     <div class="text-center">
                         <h1>
@@ -147,16 +147,16 @@
                 <h3>Gallery</h3>
             </div>
             <div class="row">
-                <div class="col col-lg-3">
+                <div class="col col-12    text-center col-lg-6 col-xl-3 ">
                     <img src="./images/forgallery1.jpg" alt="">
                 </div>
-                <div class="col col-lg-3">
+                <div class="col col-12   text-center col-lg-6 col-xl-3 ">
                     <img src="./images/forgallery2.jpg" alt="">
                 </div>
-                <div class="col col-lg-3">
+                <div class="col col-12   text-center col-lg-6 col-xl-3 ">
                     <img src="./images/forgallery3.jpg" alt="">
                 </div>
-                <div class="col col-lg-3">
+                <div class="col col-12  text-center col-lg-6  col-xl-3 ">
                     <img src="./images/forgallery4.jpg" alt="">
                 </div>
             </div>
@@ -222,7 +222,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col cpl-lg-4 text-center features border-b border-r">
+            <div class="col cpl-lg-4 text-center features  border-r">
                 <div>
                     <i class="bi bi-alarm"></i>
                 </div>
@@ -238,7 +238,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col cpl-lg-4 text-center features border-b border-r">
+            <div class="col cpl-lg-4 text-center features  border-r">
                 <div>
                     <i class="bi bi-emoji-smile"></i>
                 </div>
@@ -254,7 +254,7 @@
                     </span>
                 </div>
             </div>
-            <div class="col cpl-lg-4 text-center features border-b">
+            <div class="col cpl-lg-4 text-center features ">
                 <div>
                     <i class="bi bi-lightning-charge"></i>
                 </div>
@@ -274,7 +274,104 @@
     </div>
     <!-- /FEATURES -->
 
-    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- FORM -->
+    <div class="container form">
+        <div class="row justify-content-center">
+            <div class="col col-lg-8">
+                <div class="row">
+                    <div class="col col-lg-12 text-center title">
+                        <h3>Write to us</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <div class="row">
+                            <div class="col col-12 col-lg-4">
+                                <label for="exampleInputEmail1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="col col-12 col-lg-4">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="col col-12 col-lg-4">
+                                <label for="exampleInputEmail1" class="form-label">Phone</label>
+                                <input type="number" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <span class="contact">Contact me via :</span>
+                        <span class="contact"> <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Telegram</span>
+                        <span class="contact"> <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Email</span>
+                        <span class="contact"> <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">Phone</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected class="text-center">Post my story</option>
+                            <option value="1">Post my story</option>
+                            <option value="2">Post my story</option>
+                            <option value="3">Post my story</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col col-lg-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                I'am a human
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 right">
+                        <a class="btn btn-send" href="#" role="button">SEND</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- /FORM -->
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-12 text-center footer-top">
+                        <span class="border-icons"><i class="bi bi-twitter"></i></span>
+                        <span class="border-icons"><i class="bi bi-facebook"></i></span>
+                        <span class="border-icons"><i class="bi bi-instagram"></i></span>
+                        <span class="border-icons"><i class="bi bi-youtube"></i></span>
+                        <span class="border-icons"><i class="bi bi-envelope"></i></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12 text-center footer-bottom">
+                        <span>Ⓒ UNTITLED 2019</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /FOOTER -->
+        <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

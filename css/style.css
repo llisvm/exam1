@@ -8,6 +8,10 @@
 
 }
 
+.start img{
+    width: 100%;
+}
+
 .text-for-card{
     padding: 80px 10px;
 }
@@ -24,6 +28,10 @@
     
 }
 
+.border-bottom{
+    margin: 5px 0;
+}
+
 .gallery{
 margin-top: 15px;
 margin-bottom: 15px;
@@ -31,6 +39,7 @@ margin-bottom: 15px;
 
 .gallery img{
     width: 320px;
+    margin: 25px 0;
 }
 
 .title{
@@ -56,3 +65,48 @@ margin-bottom: 15px;
 .border-b{
     border-bottom: 1px solid darkgray;
 }
+
+.form .row{
+    margin: 7px 0;
+}
+
+.contact{
+    margin: 0 10px;
+}
+
+.btn-send{
+    color: grey;
+    border: 1px solid lightgrey; 
+    margin-right: 15px;
+}
+
+.right{
+    text-align: end;
+}
+
+footer{
+    border-top: 1px solid lightgray;
+    padding: 25px 0;
+}
+
+.border-icons{
+    padding: 10px 13px;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+}
+
+.footer-bottom{
+    margin-top:15px ;
+}
+
+/* @media (max-width:1400px) {
+    .start img{
+        width: 500px;
+    }
+}
+
+@media (max-width:1200px) {
+    .start img{
+        width: 450px;
+    }
+} */
