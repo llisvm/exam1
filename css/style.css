@@ -33,3 +33,26 @@ margin-bottom: 15px;
     width: 320px;
 }
 
+.title{
+    padding: 10px 0;
+}
+
+.features{
+    padding: 50px 0;
+}
+
+.features i{
+    font-size: 50px;
+}
+.sm-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.border-r{
+    border-right:1px solid darkgray ;
+}
+.border-b{
+    border-bottom: 1px solid darkgray;
+}
