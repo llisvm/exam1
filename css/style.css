@@ -7,3 +7,22 @@
     font-weight: 600;
 
 }
+
+.text-for-card{
+    padding: 80px 10px;
+}
+
+.btn-start{
+    color: grey;
+    border: 1px solid lightgrey;
+    margin-top: 15px;
+}
+
+.sm-text{
+    font-size: 13px;
+    color: dimgray;
+    
+}
+
+
+
